@@ -1,0 +1,19 @@
+.images {
+    cursor: pointer;
+    width: 175px;
+    height: 250px; 
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.title {
+    font-size: 15px;
+}
+
+.images:hover {
+    transform: scale(1.05);
+    opacity: 1;
+    /* transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2), color 3s 1s linear; */
+   
+
+}

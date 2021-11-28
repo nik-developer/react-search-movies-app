@@ -1,0 +1,53 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width:  1600px;
+}
+
+.MovieList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.link {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: large;
+  color: black;
+}
+.link:hover {
+    color: rgb(22, 204, 204);
+  
+}
+.listItem {
+    
+    text-align: center;
+    width: 300px;
+}
+  .listItem:nth-last-child(4n) {
+      margin-bottom: 20px;
+  }
+.img {
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+    width: 300px;
+    height: 450px;
+    transition: 0.7s;
+    /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+
+}
+.img:hover {
+    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.2),
+  3px 2px 2px 3px rgba(0, 0, 0, 0.14), 3px 1px 5px 3px rgba(0, 0, 0, 0.12);
+    color: rgb(190, 165, 165);
+opacity: 0.7;
+animation-direction: reverse;
+}
+ 
