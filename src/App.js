@@ -12,10 +12,9 @@ const MovieDetailsPage = lazy(() => import('./views/MovieDetailsPage' /* webpack
 
 
 const App = () => (
+  
    <>
-
     <AppBar />
-
     <Suspense fallback={<Loader />}>
       <Switch>
         <Route exact path={routes.home} component={HomePage} />
@@ -24,8 +23,6 @@ const App = () => (
         <Route component={NotFound}/>
       </Switch> 
     </Suspense>  
-      
-   
     </>
   );
   
